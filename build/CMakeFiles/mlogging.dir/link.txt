@@ -1,1 +1,0 @@
-/usr/bin/c++  -std=c++14  -O3 -Wall -g -pthread    CMakeFiles/mlogging.dir/src/mlogging.cpp.o  -o mlogging 

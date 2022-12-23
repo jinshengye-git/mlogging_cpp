@@ -1,3 +1,0 @@
-/home/jinshengye/Desktop/mlogging_cpp/build/CMakeFiles/rebuild_cache.dir
-/home/jinshengye/Desktop/mlogging_cpp/build/CMakeFiles/edit_cache.dir
-/home/jinshengye/Desktop/mlogging_cpp/build/CMakeFiles/mlogging.dir
