@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jinshengye/Desktop/mlogging_cpp/src/mlogging.cpp
+iostream
+-
+sys/socket.h
+-
+netdb.h
+-
+unistd.h
+-
+cstring
+-
+stdio.h
+-
+algorithm
+-
+pthread.h
+-
+signal.h
+-
+arpa/inet.h
+-
+
