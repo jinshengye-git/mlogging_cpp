@@ -5,10 +5,13 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Find required ROS packages
-find_package(roscpp REQUIRED)
-find_package(std_msgs REQUIRED)
-find_package(sensor_msgs REQUIRED)
-find_package(nav_msgs REQUIRED)
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  std_msgs
+  sensor_msgs
+  nav_msgs
+  roboline  
+)
 
 # Include directories
 include_directories(
@@ -17,6 +20,7 @@ include_directories(
   ${std_msgs_INCLUDE_DIRS}
   ${sensor_msgs_INCLUDE_DIRS}
   ${nav_msgs_INCLUDE_DIRS}
+  ${catkin_INCLUDE_DIRS}
 )
 
 # Declare a C++ library
